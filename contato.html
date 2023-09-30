@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Aju Turismo</title>
+    <link rel="stylesheet" href="src/css/contato.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo1" src="src/imagens/Aju_logo.png" alt="logo">
+
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="turismo.html">Pontos Turísticos</a></li>
+        </ul>
+    </nav>
+    
+    <h2 class="contato">Entre em contato conosco</h2>
+    <div class="container">
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="enviar">Enviar</button>
+        </form>
+    </div>
+    <nav class="nav_inicio">
+        <li>
+            <a onclick="window.scrollTo(0, 0)">Voltar ao topo</a>
+        </li>
+    </nav>
+    <footer>
+        <div class="rodape-container">
+            <div class="rodape-logo">
+                <img src="src/imagens/Aju_logo.png" alt="Logo da Empresa">
+            </div>
+            <div class="rodape-texto">
+                <p>&copy; 2023 AJU Turismo. Todos os direitos reservados.</p>
+                <p>Aracaju-SE </p>
+                <p>Telefone: +55 (79) 99999-9999</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

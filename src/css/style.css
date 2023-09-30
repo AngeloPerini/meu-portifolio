@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: gainsboro;
+}
+
+nav {
+    background-color: #006eff;
+    /* Cor de fundo da barra de navegação */
+    box-shadow: 0px 0px 20px;
+    height: 85px;
+    display: flex;
+    /* Use flexbox para centralizar horizontalmente */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente os elementos da barra de navegação */
+}
+
+.logo1 {
+    position: absolute;
+    height: 200px;
+    left: 50px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove marcadores de lista */
+    padding: 0;
+    /* Remove o preenchimento padrão das listas */
+    display: flex;
+    /* Use flexbox para alinhar os itens da lista horizontalmente */
+}
+
+li {
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+    margin-right: 20px;
+    /* Espaçamento entre os itens */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    /* Cor do texto dos links */
+    transition: color 0.3s, font-size 0.3s;
+    /* Adiciona uma transição suave de 0.3 segundos para a propriedade de cor */
+}
+
+a:hover {
+    font-size: 90%;
+    color: #c0c0c0;
+}
+
+.container1 {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    /* Define a altura do contêiner igual à altura da janela de visualização */
+    box-shadow: 0 0 10px;
+    /* Aumenta o tamanho da sombra */
+    box-sizing: content-box;
+    background-color: #479dff;
+    z-index: -1;
+}
+
+#video-loop {
+    position: relative;
+    top: -740px;
+    left: 60px;
+    width: 45%;
+    height: auto;
+    box-shadow: 0px 0px 8px;
+    border-radius: 2%;
+}
+
+.content1 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    /* Ajuste conforme necessário para a largura da coluna de texto */
+    width: 35%;
+    /* Ajuste conforme necessário para a largura da coluna de texto */
+}
+
+.introducao {
+    position: relative;
+    top: -250px;
+    left: 150px;
+    font-size: 24px;
+    /* Tamanho da fonte do título */
+
+}
+
+.p1,
+.p2 {
+    position: relative;
+    top: -220px;
+    margin-top: 50px;
+    /* Espaçamento entre os parágrafos */
+}
+
+.info {
+    position: absolute;
+    top: 920px;
+    left: 230px;
+    font-size: 20px;
+}
+
+.ponto-turistico {
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    width: 45%;
+    height: auto;
+    box-shadow: 0px 0px 5px;
+    border-radius: 2%;
+    transition: width 0.3s;
+}
+
+.ponto-turistico:hover {
+    width: 44%;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #006eff;
+    /* Cor de fundo do rodapé */
+    box-shadow: 0px 0px 20px;
+}
+
+/* Estilo para o container do rodapé */
+.rodape-container {
+    max-width: 1200px;
+    /* Largura máxima do container do rodapé */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Estilo para o logotipo no rodapé */
+.rodape-logo img {
+    position: relative;
+    width: 250px;
+    /* Largura do logotipo */
+    height: auto;
+    left: 100%;
+}
+
+/* Estilo para o texto no rodapé */
+.rodape-texto p {
+    color: #fff;
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+    /* Tamanho da fonte do texto no rodapé */
+}
+
+.nav_inicio {
+    background-color: #006eff;
+}
+
+.info {
+    margin-top: 200px;
+    margin-left: 630px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #006eff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-left: 30px;
+    margin-top: -220px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    width: 280px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 150px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    
+}
+.titulo-card{
+    margin-top: 100px;
+    margin-left: 256px;
+    color: #ffffff;
+}
+.card-2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #006eff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-top: -510px;
+    margin-left: 1200px;
+    margin-bottom: 50px;
+}
+
+.card-img-top-2 {
+    width: 280px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 180px;
+}
+
+.card-body-2 {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-text-2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    
+}
+.titulo-card-2{
+    margin-top: 100px;
+    margin-left: 170px;
+    color: #fff;
+}
+.museu-img{
+    width: 350px;
+    margin-left: 140px;
+}

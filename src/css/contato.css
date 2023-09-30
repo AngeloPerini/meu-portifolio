@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: gainsboro;
+}
+
+nav {
+    background-color: #006eff;
+    /* Cor de fundo da barra de navegação */
+    box-shadow: 0px 0px 20px;
+    height: 85px;
+    display: flex;
+    /* Use flexbox para centralizar horizontalmente */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente os elementos da barra de navegação */
+}
+
+.logo1 {
+    position: absolute;
+    height: 200px;
+    left: 50px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove marcadores de lista */
+    padding: 0;
+    /* Remove o preenchimento padrão das listas */
+    display: flex;
+    /* Use flexbox para alinhar os itens da lista horizontalmente */
+}
+
+li {
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+    margin-right: 20px;
+    /* Espaçamento entre os itens */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    /* Cor do texto dos links */
+    transition: color 0.3s, font-size 0.3s;
+    /* Adiciona uma transição suave de 0.3 segundos para a propriedade de cor */
+}
+
+a:hover {
+    font-size: 90%;
+    color: #c0c0c0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #005bb8;
+
+}
+footer {
+    background-color: #006eff;
+    /* Cor de fundo do rodapé */
+    box-shadow: 0px 0px 20px;
+}
+
+/* Estilo para o container do rodapé */
+.rodape-container {
+    max-width: 1200px;
+    /* Largura máxima do container do rodapé */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Estilo para o logotipo no rodapé */
+.rodape-logo img {
+    position: relative;
+    width: 250px;
+    /* Largura do logotipo */
+    height: auto;
+    left: 100%;
+}
+
+/* Estilo para o texto no rodapé */
+.rodape-texto p {
+    color: #fff;
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+    /* Tamanho da fonte do texto no rodapé */
+}
+.contato{
+    text-align: center;
+}
