@@ -46,7 +46,10 @@ hover {
     z-index: -1;
 }
 
-
+a:hover {
+    font-size: 90%;
+    color: #c0c0c0;
+}
 
 #video-loop {
     position: relative;
