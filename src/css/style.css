@@ -158,7 +158,8 @@ footer {
     /* Tamanho da fonte do texto no rodapé */
 }
 
-.nav_inicio {
+.nav_inicio{
+    cursor: pointer;
     background-color: #006eff;
 }
 
