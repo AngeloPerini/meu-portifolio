@@ -265,3 +265,8 @@ footer {
     color: #fff;
     margin-top: 100px;
 }
+
+.nav_inicio{
+    cursor: pointer;
+    background-color: #006eff;
+}
