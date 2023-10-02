@@ -114,6 +114,7 @@ footer {
     font-size: 20px; /* Tamanho da fonte do texto no rodapé */
 }
 .nav_inicio{
+    cursor: pointer;
     background-color: #006eff;
 }
 .info{
@@ -149,3 +150,5 @@ footer {
     margin-left: 605px;
     padding: 130px;
 }
+
+
