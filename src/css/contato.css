@@ -124,3 +124,8 @@ footer {
 .contato{
     text-align: center;
 }
+
+.nav_inicio{
+    cursor: pointer;
+    background-color: #006eff;
+}
