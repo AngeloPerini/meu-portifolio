@@ -9,6 +9,9 @@ O primeiro alerta aparece apos inserir seus dados, sendo eles (cpf, nome, data d
 
 O segundo alert aparece a mensagem que sua reserva foi feita com sucesso 
 
+
+E adicionei um Alert para somente pessoas que são maiores de 18 anos consigam reservar
+
 Pagina de Reserva
 
 
@@ -21,7 +24,8 @@ Primeiro Alert
 
 
 
-![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/c711f706-ec53-4bc8-9418-7a5a8447f366)
+![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/221cd2a7-853d-4f9e-b7e5-c7c8d4ce56ee)
+
 
 
 
@@ -30,6 +34,15 @@ Segundo Alert
 
 
 ![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/60d17af2-da8d-4136-a2bd-4524f34e5c87)
+
+
+
+Alert de menores de 18 anos
+
+
+
+![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/7a34a600-0073-4bd5-9c32-69b3e7150cdb)
+
 
 
 Apos conficar que foi realizada, você sera direcionado para a pagina incial do site
