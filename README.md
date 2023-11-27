@@ -1,7 +1,7 @@
 # meu-portifolio
 Primeiro site feito, sem resposividade, apenas o começo
 
-Retrabalhando nesse site com o intuito de acresentar uma pagina para reserva de voos, onde usarei o JavaScript para apresentar alertas na tela.
+Retrabalhando (27/11/2023) nesse site com o intuito de acresentar uma pagina para reserva de voos, onde usarei o JavaScript para apresentar alertas na tela.
 
 
 O primeiro alerta aparece apos inserir seus dados, sendo eles (cpf, nome, data de nascimento(a idade é adicionada automaticamente com o JS), estado (aceitando somente abreviação de cada estado), telefone e destino).
