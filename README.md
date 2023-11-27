@@ -9,9 +9,13 @@ O primeiro alerta aparece apos inserir seus dados, sendo eles (cpf, nome, data d
 
 O segundo alert aparece a mensagem que sua reserva foi feita com sucesso 
 
-
+Pagina de Reserva
 ![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/4debc4a1-9c18-4c85-ab64-5003a1c7c529)
+
+Primeiro Alert
 ![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/c711f706-ec53-4bc8-9418-7a5a8447f366)
+
+Segundo Alert
 ![image](https://github.com/AngeloPerini/meu-portifolio/assets/145813000/60d17af2-da8d-4136-a2bd-4524f34e5c87)
 
 
