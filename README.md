@@ -45,4 +45,4 @@ Alert de menores de 18 anos
 
 
 
-Apos conficar que foi realizada, você sera direcionado para a pagina incial do site
+Apos confirmar que foi realizada, você sera direcionado para a pagina incial do site
